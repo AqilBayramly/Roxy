@@ -74,15 +74,16 @@ header::before{
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 2rem;
     position: relative;    
-    z-index: 10;
+    z-index: 5;
 }
 
 .nav__items {
-    padding-left: 700px;
     display: flex;
+    padding-right: 70px;
+    padding-top: 5px;
 }
 
 .nav__roxy>a {
@@ -97,11 +98,6 @@ header::before{
     text-decoration: none;
     color: white;
     font-weight: 100;
-}
-
-.nav__items {
-    padding-right: 100px;
-    padding-top: 5px;
 }
 
 .responsive__menu{
@@ -444,17 +440,7 @@ header::before{
     background-color: rgba(33, 33, 255, 0.87);
     border: none;
 }
-@media only screen and (max-width: 1100px) {
-    .nav__items {
-        padding-left: 600px;
-        display: flex;
-    }
-}
 @media only screen and (max-width: 1020px) {
-    .nav__items {
-        padding-left: 500px;
-        display: flex;
-    }
     .all_photo{
         display: flex;
         flex-direction: column;
@@ -471,10 +457,6 @@ header::before{
     }
 }
 @media only screen and (max-width: 915px) {
-    .nav__items {
-        padding-left: 350px;
-        display: flex;
-    }
     .end{
         display: flex;
         flex-direction: column;
@@ -489,13 +471,6 @@ header::before{
     }
 }
 @media only screen and (max-width: 765px) {
-    .nav__items {
-        padding-left: 110px;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-    }
     .nav__item{
         display: none;
     }
@@ -527,9 +502,19 @@ header::before{
         padding-top: 20px;
     }
 }
+/* @media only screen and (max-width: 485px) {
+    .nav__roxy>a {
+        padding-left: 60px;
+    }
+} */
 @media only screen and (max-width: 455px) {
     .dropdown__menu{
         right: 0px;
         width: 100%;
     }
 }
+/* @media only screen and (max-width: 420px) {
+    .nav__roxy>a {
+        padding-left: 40px;
+    }
+} */

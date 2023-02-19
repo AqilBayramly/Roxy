@@ -74,22 +74,34 @@ infoResponsive.addEventListener("click",function(){
 
 
 // SHADOW SCROLL
-const shadow = document.querySelector(".all__shadow")
-const shadow2 = document.querySelector(".all__shadow2")
+const SHADOW = document.querySelector(".all__shadow")
+const SHADOW2 = document.querySelector(".all__shadow2")
 
 document.addEventListener("scroll",function (e) {
-    if(shadow.offsetTop - 505 < window.scrollY){
-        shadow.classList.add("shadows--open");
+    if(SHADOW.offsetTop - 520 < window.scrollY){
+        SHADOW.classList.add("shadows--open");
     }else{
-        shadow.classList.remove("shadows--open");
+        SHADOW.classList.remove("shadows--open");
     }
 })
 
 document.addEventListener("scroll",function (e) {
-    if(shadow2.offsetTop - 505 < window.scrollY){
-        shadow2.classList.add("shadows--open");
+    if(SHADOW2.offsetTop - 520 < window.scrollY){
+        SHADOW2.classList.add("shadows--open");
     }else{
-        shadow2.classList.remove("shadows--open");
+        SHADOW2.classList.remove("shadows--open");
     }
 })
 // END
+
+
+
+// const TABLE = document.querySelector(".table")
+
+// document.addEventListener("scroll",function (e) {
+//     if(TABLE.offsetTop - 100 < window.scrollY){
+//         TABLE.classList.add("shadows--open");
+//     }else{
+//         TABLE.classList.remove("shadows--open");
+//     }
+// })

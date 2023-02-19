@@ -252,6 +252,10 @@ header::before{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: .5s;
+
 }
 
 .text {
@@ -322,7 +326,7 @@ header::before{
     justify-content: center;
     opacity: 0;
     transform: translateY(100px);
-    transition: .3s;
+    transition: .5s;
 }
 
 .all__shadow2 {
@@ -331,7 +335,7 @@ header::before{
     margin-bottom: 100px;
     opacity: 0;
     transform: translateY(100px);
-    transition: .3s;
+    transition: .5s;
 }
 .shadows--open{
     transform: translateY(0);
@@ -1140,6 +1144,9 @@ form {
     }
 }
 @media only screen and (max-width: 485px) {
+    .nav__roxy>a {
+        padding-left: 60px;
+    }
     .dropdown__menu{
         width: 320px;
     }
@@ -1167,6 +1174,9 @@ form {
     }
 }
 @media only screen and (max-width: 420px) {
+    .nav__roxy>a {
+        padding-left: 40px;
+    }
     .dropdown__menu{
         /* width: 270px; */
         right: 0px;

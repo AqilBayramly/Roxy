@@ -531,6 +531,11 @@ header::before{
         padding-top: 20px;
     }
 }
+@media only screen and (max-width: 485px) {
+    .nav__roxy>a {
+        padding-left: 60px;
+    }
+}
 @media only screen and (max-width: 455px) {
     .dropdown__menu{
         right: 0px;
@@ -541,5 +546,10 @@ header::before{
     }
     .progress_text{
         width: 320px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .nav__roxy>a {
+        padding-left: 40px;
     }
 }
