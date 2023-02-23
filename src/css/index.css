@@ -733,11 +733,11 @@ header::before{
 }
 
 .all_koolr {
-    height: 70px;
+    /* height: 70px; */
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 50px;
     z-index: 1;
 }
 
@@ -1017,6 +1017,10 @@ form {
     .end {
         padding-bottom: 60px;
     }
+
+        .koolr:nth-child(6) {
+            display: none;
+        }
 }
 @media only screen and (max-width: 765px) {
     .nav__item{
@@ -1073,6 +1077,12 @@ form {
         width: 390px;
     }
 }
+@media only screen and (max-width: 760px) {
+    .koolr:nth-child(5){
+    display: none;
+}
+}
+
 @media only screen and (max-width: 650px) {
     .template {
         font-size: 28px;
@@ -1090,6 +1100,9 @@ form {
         width: 400px;
         padding-top: 25px;
     }
+        .koolr:nth-child(4){
+    display: none;
+}
 
 }
 @media only screen and (max-width: 550px) {
@@ -1159,6 +1172,10 @@ form {
     .i_am {
         width: 300px;
     }
+
+            .koolr:nth-child(3) {
+            display: none;
+        }
 
 }
 @media only screen and (max-width: 450px) {
