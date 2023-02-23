@@ -420,17 +420,10 @@ header::before{
     z-index: 10;
 }
 
-.capture2 {
-    color: black;
-    font-size: 24px;
-    width: 350px;
-}
-
-.nulla2 {
-    color: rgba(49, 49, 49, 0.712);
-    font-size: 15px;
-    width: 340px;
-    margin-top: 30px;
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .isabel2 {
@@ -440,14 +433,21 @@ header::before{
     width: 300px;
 }
 
-.middle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.isabel_text {
+    padding-left: 60px;
 }
 
-.isabel_text {
-    padding-left: 80px;
+.capture2 {
+    color: black;
+    font-size: 24px;
+    width: 370px;
+}
+
+.nulla2 {
+    color: rgba(49, 49, 49, 0.712);
+    font-size: 15px;
+    width: 340px;
+    margin-top: 30px;
 }
 
 .html95 {
@@ -1051,6 +1051,8 @@ form {
     .middle{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .capture2 {
         text-align: center;
@@ -1058,7 +1060,8 @@ form {
     .nulla2{
         text-align: center;
     }
-    .isabel_text{
+    .isabel_text {
+        padding-left: 30px;
         padding-top: 30px;
     }
     .bg_white {
@@ -1183,7 +1186,7 @@ form {
         width: 300px;
     }
     .w3-round {
-        width: 330px;
+        width: 350px;
     }
 }
 @media only screen and (max-width: 420px) {
@@ -1191,23 +1194,22 @@ form {
         padding-left: 40px;
     }
     .dropdown__menu{
-        /* width: 270px; */
         right: 0px;
         width: 100%;
     }
     .w3-round {
-        width: 280px;
+        width: 310px;
     }
     .capture2 {
         color: black;
-        font-size: 21px;
-        width: 310px;
+        font-size: 22px;
+        width: 320px;
         text-align: center;
     }
     .nulla2 {
         color: rgba(49, 49, 49, 0.712);
-        font-size: 14px;
-        width: 280px;
+        font-size: 15px;
+        width: 310px;
         margin-top: 30px;
         text-align: center;
     }
